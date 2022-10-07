@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.google.com/specimen/Barlow+Semi+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <!--
+  Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again
+  -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+    
+    <body>
+        <header class="header">
+            <h1 class="heading">
+                Rock<br>Paper<br>Scissors
+            </h1>
+            <div class="header_Scoreboard">
+                <span class="heading-score">Score</span>
+                <span class="header_scores">12</span>
+                </div>
+            </div>
+        </header>	
+        <main>
+            <!-- Game Center -->
+            <div class="game_center">
+                <div class="You">
+                  <img class="You_Image" src="img/Group 8 Copy 2.png" alt="Rock" height="120" width="120">
+                </div>
+                <div class="Mouse">
+                    <img class="Mouse_Image" src="img/Group 8 Copy (1).png" alt="Scissors" height="120" width="120"> 
+                </div>  
+            </div>
+            <div class="mine">
+                <p class="You_Picked">YOU PICKED</p> 
+                <p class="Mouse_Picked">THE MOUSE PICKED</p>
+            </div>
+            <a href="#" class="rules-btn">RULES</a>
+        </main>
+    </body>
+</html>
