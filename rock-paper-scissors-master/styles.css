@@ -272,13 +272,13 @@ main {
 .rules-heading {
     font-size: 32px;
     font-weight: 700;
-    margin-top: -70px;
+    margin-top: 95px;
     color: hsl(229, 25%, 31%);
 }
 
 .close-icon {
     margin-bottom: 65px;
-} */
+} 
 
 .game_center {
     /* width: 375px; */
@@ -297,15 +297,15 @@ main {
 }
 
 .You_Image {
-    margin-left: -6px;
+    margin-left: -50px;
     position: relative;
-    top: -66px;
+    top: 106px;
 }
 
 .Mouse_Image {
     position: relative;
-    top: -247px;
-    right: -180px;
+    top: 105px;
+    right: 15px;
 }
 
 .mine {
@@ -348,6 +348,43 @@ main {
 
 }
 
+.You-Image {
+    margin-left: -50px;
+    position: relative;
+    top: 106px;
+}
+
+.Mouse-Image {
+    position: relative;
+    top: 105px;
+    right: 15px;
+}
+
+.You-Picked {
+    /* bottom: -900px; */
+    color: #ffffff;
+    margin-left: 25px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1.875px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    
+    /* align-items: center; */
+}
+
+.Mouse-Picked {
+    color: #ffffff;
+    margin-right: -360px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1.875px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+}
+
 .result {
     color: #ffffff;
     position: absolute;
@@ -371,6 +408,27 @@ main {
     font-weight: 600;
 }
 
+.rules_btn {
+    color: #c9c9c9;
+    text-decoration: none;
+    padding: 12px 0; 
+    border: 1.5px solid #c9c9c9;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    /* margin: 85px auto; */
+    width: 128px;
+    height: 19px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 105px;
+    font-style: normal;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 1366px) {
     /* html {
         box-sizing: border-box;
@@ -381,6 +439,7 @@ main {
         background-color: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
         background-size: cover;
         height: 100%;
+        width: 100%;
         /* background-repeat: no-repeat; */
        /* min-height: 100vh; */
        
@@ -541,6 +600,9 @@ main {
     background-image: url(./img/Group\ 8.png);
     background-repeat: no-repeat;
     height: 100vh;
+    /* height: 320px;
+    width: 320px;
+    border-radius: 50%; */
     /* max-width: 100%; */
     margin-left: 640px;
     position: relative;
@@ -553,6 +615,207 @@ main {
     background-image: url(./img/Group\ 8\ Copy\ \(1\).png);
     background-repeat: no-repeat;
     height: 100vh;
-    
+    position: relative;
+    top: -1030px; 
+    right: -1050px;   
 }
+
+.rock-image {
+    background-image: url(./img/Group\ 8\ Copy\ 2.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    top: -1600px; 
+    right: -850px;
+}
+
+.rules-btn {
+    color: #c9c9c9;
+    text-decoration: none;
+    padding: 12px 0; 
+    border: 1.5px solid #c9c9c9;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    /* margin: 85px auto; */
+    width: 128px;
+    height: 19px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 1700px;
+    font-style: normal;
+    margin-top: -2500px;
+    /* margin-bottom: 20px; */
+}
+
+.btn {
+    /* margin: -50px auto; */
+    /* bottom: 25px; */
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 1px;
+}
+
+.rules-popup {
+    position: relative;
+    left: 0;
+    top: -985px;
+    margin: auto;
+    width: 400px;
+    height: 415px;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    /* padding-bottom: 30px; */
+    /* padding: 32px; */
+    display: none;
+}
+
+.rules-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: -250px;
+    color: hsl(229, 25%, 31%);
+}
+
+.close-icon {
+    position: relative;
+    top: -335px;
+    right: -150px;
+} 
+
+.You_Image {
+    margin-left: 570px;
+    position: relative;
+    top: 150px;
+    width: 293px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.Mouse_Image {
+    position: relative;
+    top: 150px;
+    right: 580px;
+    width: 293px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.mine {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -550px;
+}
+
+.You_Picked {
+    /* bottom: -900px; */
+    color: #ffffff;
+    margin-left: 680px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    font-style: normal;
+    
+    /* align-items: center; */
+}
+
+.Mouse_Picked {
+    color: #ffffff;
+    margin-right: -1300px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    font-style: normal;
+}
+
+.rules_btn {
+    color: #c9c9c9;
+    text-decoration: none;
+    padding: 12px 0; 
+    border: 1.5px solid #c9c9c9;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    /* margin: 85px auto; */
+    width: 128px;
+    height: 19px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 1700px;
+    font-style: normal;
+    margin-top: -50px;
+    /* margin-bottom: 20px; */
+}
+
+.You-Image {
+    margin-left: 380px;
+    position: relative;
+    top: 150px;
+    width: 293px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.Mouse-Image {
+    position: relative;
+    top: 150px;
+    right: 450px;
+    width: 293px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.You-Picked {
+    /* bottom: -900px; */
+    color: #ffffff;
+    margin-left: 500px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    font-style: normal;
+    
+    /* align-items: center; */
+}
+
+.Mouse-Picked {
+    color: #ffffff;
+    margin-right: -1400px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+    font-style: normal;
+}
+
+.outcome {
+    position: relative;
+    top: -150px;
+    left: 770px;
+}
+
+
 }
